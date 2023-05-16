@@ -6,17 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TO-DO</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
   </head>
   <body>
     <div class="container">
-      <div class="todo-app">
-        <h2>TO-DO List<img src="images/notepad.png" /></h2>
-        <div class="row">
-          <input type="text" id="input-box" placeholder="Enter your Task" />
-          <button onclick="addTask()">Add</button>
+      <div>
+        <header>
+          <h1>Harsh Priyesh</h1>
+        </header>
+        <div class="todo-app">
+          <h2>TO-DO List<img src="images/notepad.png" /></h2>
+          <div class="row">
+            <input type="text" id="input-box" placeholder="Enter your Task" />
+            <button onclick="addTask()">Add</button>
+          </div>
+          <ul id="list-container"></ul>
         </div>
-        <ul id="list-container"></ul>
       </div>
+      <footer>
+        <div class="icons">
+          <a href="https://github.com/HarshPriyesh" target="_blank" class="github">
+            <i class="bx bxl-github bx-md"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <i class="bx bxl-linkedin-square bx-md"></i>
+          </a>
+        </div>
+      </footer>
     </div>
     <script src="script.js"></script>
   </body>
