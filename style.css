@@ -176,3 +176,32 @@ ul li span {
 ul li span:hover {
   background-color: #edeef0;
 }
+.icons a i{
+  font-size: 2.25rem;
+}
+/* CSS for Small Screen*/
+@media only screen and (max-width: 600px) {
+  header {
+    justify-content: center;
+  }
+  header h1 {
+    margin-left: 0;
+    font-size: 30px;
+  }
+  footer {
+    justify-content: center;
+  }
+  button {
+    padding: 16px 35px;
+  }
+  .todo-app {
+    height: 525px;
+    padding: 40px 15px 60px;
+  }
+  footer .icons {
+    margin-right: 0;
+  }
+  .icons a i{
+    font-size: 2rem;
+  }
+}
